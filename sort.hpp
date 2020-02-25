@@ -9,4 +9,7 @@
 
 #include <vector>
 
+// sort the vector
+void sort(std::vector<int>& v);
+
 #endif
