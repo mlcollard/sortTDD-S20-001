@@ -28,4 +28,10 @@ void sort(std::vector<int>& v) {
         return;
 
     order(v[0], v[1]);
+
+    if (v.size() < 3)
+        return;
+
+    order(v[1], v[2]);
+    order(v[0], v[1]);
 }
